@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Portfolio Homepage</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechCon 2024</title>
 </head>
 <body>
 
-  <h1>Welcome to My Portfolio</h1>
+  <!-- Header Section -->
+  <header>
+    <h1>TechCon 2024</h1>
+    <nav>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <h2>About Me</h2>
-  <p>I am a passionate learner enrolled in the ALX Software Engineering Program.</p>
+  <!-- Main Content -->
+  <main>
+    <section>
+      <h2>Welcome to TechCon 2024</h2>
+      <p>
+        Join industry leaders and technology enthusiasts from around the world for TechCon 2024—an exciting event filled with innovation, networking, and cutting-edge presentations.
+      </p>
 
-  <h3>My Interests</h3>
-  <p>I enjoy building web applications, solving algorithms, and exploring new technologies.</p>
+      <!-- Embedded Video -->
+      <video controls width="640">
+        <source src="promo.mp4" type="video/mp4">
+        <track src="promo-subtitles.vtt" kind="subtitles" srclang="en" label="English">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+  </main>
 
-  <p>Outside of tech, I love photography, reading, and volunteering in my community.</p>
-
-  <p>This is just the beginning of my journey. Thank you for visiting!</p>
-
-  <!-- Clickable image -->
-  <a href="https://www.alxafrica.com/" target="_blank">
-    <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" width="200">
-  </a>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
